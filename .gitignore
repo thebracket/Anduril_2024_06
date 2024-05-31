@@ -1,0 +1,9 @@
+/target
+/manual/book
+cpp/atomic_thread/atomic
+cpp/break_thread/race
+cpp/mutex_spot/mutex_spot
+cpp/ref_oops/ref_oops
+cpp/spot_diff/a
+cpp/spot_diff/b
+.vscode

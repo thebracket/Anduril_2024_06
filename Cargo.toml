@@ -1,0 +1,21 @@
+[package]
+name = "anduril_workshops"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [ 
+    "code/optimization/single_thread",
+    "code/optimization/chunked", 
+    "code/optimization/all_cpus", 
+    "code/optimization/measure_threads", 
+    "code/optimization/shuffle", 
+    "code/optimization/interleaved", 
+    "code/optimization/interleaved_move", 
+    "code/optimization/with_rayon", 
+    "code/rayon/sorter", "code/rayon/joiner", "code/rayon/scopes", "code/enum_channel/oneshot_demo", "code/enum_channel/crossbeam_select", "code/channel_workshop/summer", "code/channel_workshop/calculator", "code/spinlock", "code/async/selector", "code/async/thread_sleep", "code/async/too_much_work", "code/async/too_much_work_yield", "code/async/too_much_work_spawn_blocking", "code/webserver_workshop/hello_world", "code/webserver_workshop/axum_hello_world", "code/webserver_workshop/axum_hello_html", "code/webserver_workshop/axum_json", "code/webserver_workshop/axum_db", "code/webserver_workshop/axum_db_cache", "code/ffi1/c_to_rust", "code/ffi1/c_to_rust_bindgen", "code/ffi1/c_to_rust_string", "code/ffi1/c_to_rust_struct", "code/ffi1/c_to_rust_callback", "code/ffi1/rust_to_c", "code/ffi2/simple_class", "code/ffi2/simple_callback", "code/state/shared_cache1", "code/state/shared_cache2", "code/state/actor", "code/procmacros/deriver", "code/procmacros/deriver-macros", 
+]
